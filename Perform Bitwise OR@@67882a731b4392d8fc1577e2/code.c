@@ -1,8 +1,9 @@
 #include <stdio.h>
 int main()
 {
-    int a,b;
-    scanf("%d%d",&a,&b);
-    printf("7");
+    int a,b,result;
+    result=a|b;
+    scanf("%d",&result);
+    printf(result);
     return 0;
 }

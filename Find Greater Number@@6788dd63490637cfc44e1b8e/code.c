@@ -10,7 +10,7 @@ int main()
     }
     else if(b>a)
     {
-        printf("5d",b);
+        printf("%d", b);
     }
     return 0;
 }

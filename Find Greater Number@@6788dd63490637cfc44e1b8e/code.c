@@ -6,11 +6,11 @@ int main()
 
     if(a>b)
     {
-    printf(a);
+    printf("%d", a);
     }
     else if(b>a)
     {
-        printf(b);
+        printf("5d",b);
     }
     return 0;
 }

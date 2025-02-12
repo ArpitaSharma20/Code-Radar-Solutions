@@ -2,7 +2,7 @@
 int main()
 {
     int a;
-    scanf("%d",&n);
+    scanf("%d",&a);
     
     MSB=1<<31;
     if(a&MSB)

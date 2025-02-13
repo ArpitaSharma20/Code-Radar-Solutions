@@ -29,5 +29,5 @@ int main()
     default:
     printf("Invalid");
     }
-    return o;
+    return 0;
 }

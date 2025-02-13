@@ -11,7 +11,8 @@ int main()
     {
         printf("First");
     }
-    else{
+    else(b>a)
+    {
         printf("Second");
     }
     return 0;

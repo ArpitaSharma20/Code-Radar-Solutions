@@ -1,0 +1,42 @@
+#include<stdio.h>
+int main()
+{
+    int day;
+    scanf("%d",&day);
+    switch(day)
+    {
+    case1:
+    {
+        printf("Monday");
+    }
+    case2:
+    {
+        printf("Tuesday");
+    }
+    case3:
+    {
+        printf("Wednesday");
+    }
+    case4:
+    {
+        printf("Thursday");
+    }
+    case5:
+    {
+        printf("Friday");
+    }
+    case6:
+    {
+        printf("Saturday");
+    }
+    case7:
+    {
+        printf("Sunday");
+    }
+    default:
+    {
+        printf("Invalid");
+    }
+    }
+    return o;
+}

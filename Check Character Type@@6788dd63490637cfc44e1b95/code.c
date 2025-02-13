@@ -7,10 +7,10 @@ int main()
     {
         printf("Vowel");
     }
-    else if(ch!='a'&&ch!='e'&&ch!='i'&&ch!='o'&&ch!='u')
+    else
     {
         printf("Consonant");
     }
-    
+
 
 }

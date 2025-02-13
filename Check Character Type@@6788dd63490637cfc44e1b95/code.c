@@ -11,7 +11,7 @@ int main()
      else if(isalpha(ch)){
         char low = tolower(ch);
      
-     if(ch=='a'&&ch=='e'&&ch=='i'&&ch=='o'&&ch=='u')
+     if(low=='a'&&low=='e'&&low=='i'&&low=='o'&&low=='u')
     {
         printf("Vowel");
     }

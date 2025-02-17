@@ -2,29 +2,21 @@
 int main()
 {
     char ch;
-    scanf("%d",&ch);
-    if(ch==A)
+    scanf("%c",&ch);
+    switch(a);
     {
-        printf("Excellent");
-    }
-    else if(ch==B)
-    {
-        printf("Good");
-    }
-    else if(ch==C)
-    {
-        printf("Average");
-    }
-    else if(ch==D)
-    {
-        printf("Below Average");
-    }
-    else if(ch==F)
-    {
-        printf("Fail");
-    }
-    else{
-        printf("Invalid grade");
+        case 'A':printf("Excellent");
+        break;
+        case 'B':printf("Good");
+        break;
+        case 'C':printf("Average");
+        break;
+        case 'D':printf("Below Average");
+        break;
+        case 'E':printf("Fail");
+        break;
+        default:printf("Invalid grade");
+        break;
     }
     return 0;
 }

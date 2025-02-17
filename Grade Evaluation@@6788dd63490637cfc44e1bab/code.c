@@ -13,7 +13,7 @@ int main()
         break;
         case 'D':printf("Below Average");
         break;
-        case 'E':printf("Fail");
+        case 'F':printf("Fail");
         break;
         default:printf("Invalid grade");
         break;

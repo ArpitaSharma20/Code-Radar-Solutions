@@ -19,7 +19,6 @@ int main()
         case '/': 
         if(b!=0)
         printf("%d",a/b);
-        break;
         else
         printf("error");
         break;

@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main()
 {
-    char light[20];
+    char light;
     scanf("%c",&light);
     switch(light)
     {
